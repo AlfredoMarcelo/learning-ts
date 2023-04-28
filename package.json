@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start:types": "tsc basics/types.ts --outdir dist/ && node dist/types.js",
+    "start:customTypes": "tsc basics/customTypes.ts --outdir dist/ && node dist/customTypes.js",
     "start:enums": "tsc basics/enums.ts --outdir dist/ && node dist/enums.js",
     "start:interfaces": "tsc basics/interfaces.ts --outdir dist/ && node dist/interfaces.js",
+    "start:clases": "tsc basics/clases.ts --outdir dist/ && node dist/clases.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

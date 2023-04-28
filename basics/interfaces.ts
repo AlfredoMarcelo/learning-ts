@@ -3,7 +3,7 @@
 interface debera tener si o si las propiedades declaradas en el interface*/
 //Es similar a un contrato, bosquejo donde se define los datos que debe tener un obj
 
-/*Tambien sirve para definir funciones, pero para describir el dato que va a devolver la funcion*/
+/*Tambien sirve para definir funciones, pero solo para describir el dato que va a devolver la funcion*/
 
 interface Person{
     name?: string,
